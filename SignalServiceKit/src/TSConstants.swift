@@ -194,7 +194,7 @@ private class TSConstantsProduction: TSConstantsProtocol {
     // checking earlier enclaves.
     public let keyBackupPreviousEnclaves = [KeyBackupEnclave]()
 
-    public let applicationGroup = "group.org.whispersystems.signal.group"
+    public let applicationGroup = "group.com.luckypines.signal.group"
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)
@@ -250,7 +250,7 @@ private class TSConstantsStaging: TSConstantsProtocol {
         )
     ]
 
-    public let applicationGroup = "group.org.whispersystems.signal.group.staging"
+    public let applicationGroup = "group.com.luckypines.signal.group.staging"
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)
